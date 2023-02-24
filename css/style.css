@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.wrap .wrapper {
+  width: 47rem;
+  min-width: 47rem;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 3rem;
+}
+.wrap .wrapper .header {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  font-size: small;
+}
+.wrap .wrapper .address {
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: small;
+}
+.wrap .wrapper .address .wrapper__section {
+  list-style-type: none;
+  padding: 0;
+}
+.wrap .wrapper .address .wrapper__section li a {
+  text-decoration: none;
+  color: black;
+}
+.wrap .wrapper .address .wrapper__section li:last-child a {
+  color: rgb(28, 28, 255);
+  text-decoration: underline;
+}
+.wrap .wrapper .lieferschein {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: medium;
+}
+.wrap .wrapper .lieferschein .wrapper__section {
+  justify-content: space-between;
+}
+.wrap .wrapper .lieferschein .wrapper__section .transportfirma {
+  margin-bottom: 3.3rem;
+}
+.wrap .wrapper .lieferschein .wrapper__section p {
+  font-size: small;
+}
+.wrap .wrapper .lieferschein .wrapper__section > div {
+  margin-bottom: 1rem;
+}
+.wrap .wrapper .lieferschein .wrapper__section .table th {
+  padding: 0;
+  text-align: start;
+  padding-right: 2rem;
+}
+.wrap .wrapper .lieferschein .wrapper__section .table td {
+  font-size: small;
+}
+.wrap .wrapper .lieferung {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.wrap .wrapper .lieferung .lieferung__table {
+  width: 100%;
+  empty-cells: show;
+  font-size: small;
+}
+.wrap .wrapper .lieferung .lieferung__table caption {
+  font-size: medium;
+}
+.wrap .wrapper .lieferung .lieferung__table th {
+  text-align: start;
+}
+.wrap .wrapper .lieferung .lieferung__table th:nth-of-type(2) {
+  text-align: center;
+}
+.wrap .wrapper .lieferung .lieferung__table th:nth-of-type(6) {
+  text-align: end;
+}
+.wrap .wrapper .lieferung .lieferung__table th:nth-of-type(7) {
+  text-align: end;
+}
+.wrap .wrapper .lieferung .lieferung__table td {
+  text-align: start;
+}
+.wrap .wrapper .lieferung .lieferung__table td:nth-of-type(2) {
+  text-align: center;
+}
+.wrap .wrapper .lieferung .lieferung__table td:nth-of-type(6) {
+  text-align: end;
+}
+.wrap .wrapper .lieferung .lieferung__table td:nth-of-type(7) {
+  text-align: end;
+}
+.wrap .wrapper .lieferung .lieferung__table tfoot td:first-child {
+  border-bottom: 1px solid black;
+}
+.wrap .wrapper .footer {
+  display: flex;
+  font-size: small;
+}
+.wrap .wrapper .footer .footer__table {
+  width: 50%;
+  border-collapse: collapse;
+}
+.wrap .wrapper .footer .footer__table:first-child {
+  margin-right: 0.5rem;
+}
+.wrap .wrapper .footer .footer__table:first-child td {
+  text-align: start;
+  height: 1.4rem;
+}
+.wrap .wrapper .footer .footer__table:first-child td:nth-of-type(2) {
+  text-align: center;
+}
+.wrap .wrapper .footer .footer__table .center {
+  text-align: center;
+}
+.wrap .wrapper .footer .footer__table .color {
+  background-color: rgb(242, 242, 242);
+  font-size: larger;
+}
+.wrap .wrapper .footer .footer__table .red {
+  color: red;
+}
+.wrap .wrapper .wrapper__section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrap .wrapper .section__title {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: start;
+}
